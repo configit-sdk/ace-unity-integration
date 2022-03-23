@@ -1,0 +1,7 @@
+{
+  "name": "com.configit.ace",
+  "displayName": "Configit Ace .NET API",
+  "version": "1.0.0",
+  "unity": "2020.3",
+  "description": "The Configit Ace .NET API allows you to connect to the Configit Ace service."
+}
