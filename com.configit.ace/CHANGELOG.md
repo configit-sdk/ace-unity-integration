@@ -15,6 +15,18 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## Fixed
 - Something that was fixed but not yet released.
 
+## [1.0.1] - 2022-03-28
+
+### Added
+- The following libraries and associated meta files which are need for a standalone build:  
+  - BCrypt.Net-Next.dll
+  - Configit.Caches.LruCache.dll
+  - Configit.ResourceRepository.Storage.Manager.dll
+  - Configit.ResourceRepository.Storage.Memory.dll
+  - Microsoft.Extensions.Caching.Memory.dll
+  - Microsoft.Extensions.DependencyInjection.Abstractions.dll
+  - Microsoft.Extensions.Options.dll
+
 ## [1.0.0] - 2022-03-22
 
 ### Added
