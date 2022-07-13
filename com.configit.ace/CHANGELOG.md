@@ -4,16 +4,35 @@ All notable changes to this package will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [1.0.2]
 
 ### Added
-- Something that was added but not yet released.
+- The following libraries and associated meta files because they are dependencies:
+  - K4os.Compression.LZ4.dll
+  - System.Buffers.dll
+  - System.ComponentModel.Annotations.dll
+  - System.Memory.dll
+  - System.Numerics.Vectors.dll
+  - System.Runtime.CompilerServices.Unsafe.dll
+  - System.Threading.Thread.dll
+  - System.ValueTuple.dll
 
 ### Changed
-- Something that was changed but not yet release.
+- Updated the following libraries to the latest version:
+  - BCrypt.Net-Next.dll
+  - Configit.Ace.Configurator.Client.dll
+  - Configit.Ace.Platform.Client.dll
+  - Configit.Ace.Platform.Common.dll
+  - Configit.Caches.LruCache.dll
+  - Configit.ResourceRepository.Common.dll
+  - Configit.ResourceRepository.Provider.dll
+  - Configit.ResourceRepository.Publisher.dll
+  - Configit.ResourceRepository.Storage.Manager.dll
+  - Configit.ResourceRepository.Storage.Memory.dll
+  - Configit.ResourceRepository.Storage.dll
 
 ## Fixed
-- Something that was fixed but not yet released.
+- System.ValueTuple.dll is not active for any Unity target platform by default because it will most probably be added through another package already.
 
 ## [1.0.1] - 2022-03-28
 
