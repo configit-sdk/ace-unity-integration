@@ -4,6 +4,13 @@ All notable changes to this package will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.0.3]
+
+### Fixed
+- Modified the following meta files to prevent dlls from being included twice:
+  - K4os.Compression.LZ4.dll.meta
+  - System.Runtime.CompilerServices.Unsafe.dll.meta
+
 ## [1.0.2]
 
 ### Added
