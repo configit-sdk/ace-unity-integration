@@ -4,6 +4,34 @@ All notable changes to this package will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.0.4]
+### Changed
+- Updated the following libraries to the latest version:
+  - Configit.Ace.Configurator.Client.dll
+  - Configit.Ace.Platform.Client.dll
+  - Configit.Ace.Platform.Common.dll
+- Removed the following dlls
+  - Configit.ResourceRepository.Common.dll
+  - Configit.ResourceRepository.Provider.dll
+  - Configit.ResourceRepository.Publisher.dll
+  - Configit.ResourceRepository.Storage.Manager.dll
+  - Configit.ResourceRepository.Storage.Memory.dll
+  - Configit.ResourceRepository.Storage.dll
+- Added the following dlls
+  - Configit.Internal.ResourceRepository.Common.dll
+  - Configit.Internal.ResourceRepository.Provider.dll
+  - Configit.Internal.ResourceRepository.Publisher.dll
+  - Configit.Internal.ResourceRepository.Storage.Manager.dll
+  - Configit.Internal.ResourceRepository.Storage.Memory.dll
+  - Configit.Internal.ResourceRepository.Storage.dll
+- Renamed the following .meta files
+  - Configit.Internal.ResourceRepository.Common.dll.meta -> Configit.Internal.ResourceRepository.Common.dll.meta
+  - Configit.ResourceRepository.Provider.dll.meta -> Configit.Internal.ResourceRepository.Provider.dll.meta
+  - Configit.ResourceRepository.Publisher.dll.meta -> Configit.Internal.ResourceRepository.Publisher.dll.meta
+  - Configit.ResourceRepository.Storage.Manager.dll.meta -> Configit.Internal.ResourceRepository.Storage.Manager.dll.meta
+  - Configit.ResourceRepository.Storage.Memory.dll.meta -> Configit.Internal.ResourceRepository.Storage.Memory.dll.meta
+  - Configit.ResourceRepository.Storage.dll.meta -> Configit.Internal.ResourceRepository.Storage.dll.meta
+
 ## [1.0.3]
 
 ### Fixed
